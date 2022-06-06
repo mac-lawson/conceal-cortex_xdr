@@ -14,3 +14,8 @@ Depending on your desired security level, you can generate two types of API keys
 The API Key ID is your unique token used to authencate the API Key. The header used when running an API call is "x-xdr-auth-id: {key_id}".
 ### FQDN
 The FQDN is a unique host and domain name associated with each tenant. When you generate the API Key and Key ID, you are assigned an individual FQDN.
+
+
+## About
+### Developed by Mac Lawson
+### Contact: mlawson07@protonmail.com
