@@ -1,21 +1,52 @@
-# Conceal.io plugin for Alto Cortex
-Integration for Alto Cortex and Conceal.io
 
-## API Information
-Get your Cortex XDR API Key.
-- InCortexXDR,navigatetoSengs>Configuraons>Integraons>APIKeys.
-- Select +NewKey.
+# Palo Cortex Web Interface Plugin
+[![MIT License](https://img.shields.io/badge/developer-Mac%20Lawson-blue)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![MIT License](https://img.shields.io/github/contributors/mac-lawson/conceal-cortex_xdr)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+![GitHub last commit](https://img.shields.io/github/last-commit/mac-lawson/conceal-cortex_xdr)[![MIT License](https://img.shields.io/badge/developer-Mac%20Lawson-blue)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/mac-lawson/conceal-cortex_xdr/main)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mac-lawson/conceal-cortex_xdr)
+Interface with endpoints controlled via Palo Cortex
 
-## Further Information
-### API Key
-The API Key is your unique idenfier used as the "Authorization:{key}" header required for callng API calls.
-Depending on your desired security level, you can generate two types of API keys, Advanced or Standard, from your Cortex XDR app.
-### API Key ID
-The API Key ID is your unique token used to authencate the API Key. The header used when running an API call is "x-xdr-auth-id: {key_id}".
-### FQDN
-The FQDN is a unique host and domain name associated with each tenant. When you generate the API Key and Key ID, you are assigned an individual FQDN.
+## Deployment
+To enable the plugin, use the console to establish the API variables 
+```javascript
+let API_KEY_ID = {your api key id}
+let API_KEY = {api key}
+```
 
 
-## About
-### Developed by Mac Lawson
-### Contact: mlawson07@protonmail.com
+## Reference
+
+#### Init
+
+```http
+let API_KEY_ID = {your api key id}
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `API_KEY_ID` | `string` | **Required**. Your API key ID |
+
+
+```http
+let API_KEY = {api key}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `API_KEY`      | `string` | **Required**. Your API key |
+
+## 
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `<endpoint ID>`      | `integer` | **Required**. Individual IDs for endpoints on Alto
+Cortex |
+
+#### Run files for development testing in the console of a browser
+
+
+
+## Developers
+
+- [Lead: Mac Lawson](https://www.github.com/mac-lawson)
+

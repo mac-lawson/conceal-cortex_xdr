@@ -6,6 +6,8 @@ xhr.setRequestHeader("Authorization", (API_KEY));
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.onload = () => console.log(xhr.responseText);
 
+
+
 let data = `{
     
 }`;
