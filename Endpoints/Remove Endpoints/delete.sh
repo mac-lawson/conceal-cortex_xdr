@@ -13,3 +13,4 @@ curl -X POST https://api-{fqdn}/public_api/v1/endpoints/delete/ \
             ]
 } ]
 }' }
+
