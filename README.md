@@ -1,4 +1,4 @@
-# conceal-cortex_xdr
+# Conceal.io plugin for Alto Cortex
 Integration for Alto Cortex and Conceal.io
 
 ## API Information
