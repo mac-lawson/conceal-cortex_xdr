@@ -4,3 +4,5 @@ curl -X POST https://api-{fqdn}/public_api/v1/endpoints/get_endpoints
 -H "Authorization:{API_KEY}" \
 -H "Content-Type:application/json" \
 -d '{}
+
+
