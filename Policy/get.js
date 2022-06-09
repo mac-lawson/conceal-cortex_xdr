@@ -2,7 +2,7 @@ let xhr = new XMLHttpRequest();
 
 let data_active = false
 
-xhr.open("POST", "https://api-{fqdn}/public_api/v1/endpoints/get_policy");
+xhr.open("POST", "https://api-" + (fqdn) + "/public_api/v1/endpoints/get_policy");
 
 xhr.setRequestHeader("x-xdr-auth-id", (API_KEY_ID));
 xhr.setRequestHeader("Authorization", (API_KEY));

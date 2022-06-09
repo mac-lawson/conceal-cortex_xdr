@@ -8,10 +8,11 @@
 Interface with endpoints controlled via Palo Cortex
 
 ## Deployment
-To enable the plugin, use the console to establish the API variables 
+To enable the plugin, use the console to establish the API and FQDN variables 
 ```javascript
 let API_KEY_ID = {your api key id}
 let API_KEY = {api key}
+let fqnd = {cortex fqdn}
 ```
 
 
@@ -36,11 +37,20 @@ let API_KEY = {api key}
 | :-------- | :------- | :-------------------------------- |
 | `API_KEY`      | `string` | **Required**. Your API key |
 
+```http
+let fqnd = {your palo cortex fqdn}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `fqdn`      | `string` | **Required**. Your Palo Cortex FQDN |
+
 ## 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `<endpoint ID>`      | `integer` | **Required**. Individual IDs for endpoints on Alto
 Cortex |
+| `<filter objects>`| `string / integer / double` | Specific filters for calls that require the filtering of Cortex endpoints
 
 #### Run files for development testing in the console of a browser
 

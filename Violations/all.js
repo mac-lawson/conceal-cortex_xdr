@@ -1,5 +1,5 @@
 let xhr = new XMLHttpRequest();
-xhr.open("POST", "https://api-{fqdn}/public_api/v1/device_control/get_violation");
+xhr.open("POST", "https://api-" + (fqdn) + "/public_api/v1/device_control/get_violation");
 
 xhr.setRequestHeader("x-xdr-auth-id", (API_KEY_ID));
 xhr.setRequestHeader("Authorization", (API_KEY));
