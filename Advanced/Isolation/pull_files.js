@@ -24,7 +24,7 @@ let data = `{
        ], }
        "files":{
  "windows":[
-             "C:\\<file path>\\test.txt"
+             prin"C:\\<file path>\\test.txt"
           ]
  } } }`
 
